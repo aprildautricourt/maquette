@@ -1,0 +1,57 @@
+#navbar {
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 80px;
+  background: #ffffff;
+  padding: 0 112px;
+}
+body {
+  background: grey;
+  margin: unset;
+  font-family: "Work Sans", sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  /* TheBox */
+}
+.link {
+  gap: 50px;
+  display: flex;
+  position: absolute;
+  right: 112px;
+  top: 30px;
+}
+#navbar > .link > a {
+  font-size: 18px;
+  color: #14171f;
+  text-decoration: unset;
+}
+#navbar > .link > #contact {
+  width: 98px;
+
+  font-weight: 600;
+
+  /* Secondary */
+
+  color: #f9995d;
+}
+#logo {
+  width: 38px;
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+
+  /* Primary */
+
+  color: #2947a9;
+}
